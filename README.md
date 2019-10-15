@@ -24,4 +24,5 @@
 
 # 실행 방법
 * `C:\tools\selenium\standalone.cmd` 실행
-* 설치폴더의  webtool.bat로 원하는 파일(혹은 디렉토리) 드래그
+* 설치폴더의 `webtool.bat`로 원하는 파일(혹은 디렉토리) 드래그
+  * 샘플 : `codes폴더`
