@@ -19,9 +19,9 @@
   * `standalone.cmd` 파일 마우스 오른쪽 편집
   * `-enablePassThrough True` 문구 제거하고 저장
 
-#설치 방법
-* ``를 받아서 원하는 폴더에 해제
+# 설치 방법
+* `https://github.com/genesos/web-operation-tool/archive/master.zip`를 받아서 원하는 폴더에 해제
 
-#실행 방법
+# 실행 방법
 * `C:\tools\selenium\standalone.cmd` 실행
 * 설치폴더의  webtool.bat로 원하는 파일(혹은 디렉토리) 드래그
