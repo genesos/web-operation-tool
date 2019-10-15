@@ -1,0 +1,12 @@
+open https://mail.naver.com/#%7B%22fClass%22%3A%22read%22%2C%22oParameter%22%3A%7B%22charset%22%3A%22%22%2C%22prevNextMail%22%3Atrue%2C%22threadMail%22%3Atrue%2C%22listScrollPosition%22%3A0%2C%22mailSN%22%3A%224169%22%2C%22previewMode%22%3A2%2C%22type%22%3A%22attach%22%7D%7D
+loop_date $start_date $loop_start_date $end_date "1 day"
+set $loop_end_date $loop_start_date
+add_date $loop_end_date "1 day"
+
+html_type_date "#searchKeyWord" $loop_start_date "Y-m-d 00:00:00"
+html_type_date "#searchKeyWord" $loop_end_date "Y-m-d 00:00:00"
+
+html_type "#searchKeyWord" 123
+html_click ".el_ct a"
+
+wait_download excel_$loop_start_date:Ymd$.pdf

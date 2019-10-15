@@ -1,0 +1,12 @@
+user_pref('browser.download.folderList', 2);
+user_pref('browser.download.useDownloadDir', true);
+user_pref('browser.helperApps.alwaysAsk.force', false);
+user_pref('browser.download.manager.showWhenStarting', false);
+user_pref('browser.download.manager.focusWhenStarting', false);
+user_pref('browser.download.manager.useWindow', false);
+user_pref('browser.download.manager.alertOnEXEOpen', false);
+user_pref('browser.download.manager.closeWhenDone', true);
+user_pref('browser.download.manager.showAlertOnComplete', false);
+user_pref('pdfjs.disabled', true);
+user_pref('browser.download.dir', 'C:\\Temp');
+user_pref('browser.helperApps.neverAsk.saveToDisk', 'text/anytext,text/comma-separated-values,text/csv,application/csv,application/excel,application/vnd.ms-excel,application/vnd.msexcel,application/octet-stream,application/pdf,text/anytext,text/anytext,text/anytext,application/octet-stream,application/octet-stream,application/pdf,application/x-pdf,application/vnd.pdf');

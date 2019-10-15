@@ -1,0 +1,2 @@
+open https://nid.naver.com/nidlogin.login?url=http://pay.naver.com
+wait order.pay.naver.com

@@ -1,0 +1,21 @@
+{
+  "name": "Operation Tool",
+  "description": "Operation EZ",
+  "authors": [
+    {
+      "name": "genesos",
+      "email": "genesos@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Genesos\\Operation\\": "src"
+    }
+  },
+  "require": {
+    "element-34/php-webdriver": "v1.12.0",
+    "symfony/console": "v3.3",
+    "illuminate/support": "v5.4",
+    "ext-zip": "*"
+  }
+}
